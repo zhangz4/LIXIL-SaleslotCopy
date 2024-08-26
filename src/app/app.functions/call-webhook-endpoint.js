@@ -6,7 +6,7 @@ exports.main = async (context = {}) => {
   
   try {
     await callWebhookEndpoint(saleslotId);
-    return { status: 'success', meesage:"Workflow initiated successfully." };
+    return { status: 'success', meesage:"Workflow initiated successfully. Please wait for 4-5 minutes while the system completes the processing.  Thank you for your patience!" };
   } catch (err) {
     return { status: 'error', message: err.message }
   }
