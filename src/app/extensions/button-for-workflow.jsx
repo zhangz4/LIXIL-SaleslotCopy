@@ -38,7 +38,7 @@ const Extension = ({ context, runServerless, sendAlert }) => {
         <Button type="submit"
         variant="primary"
         onClick={handleClick}>
-          Copy Saleslot
+          SalesLotコピー
         </Button>
       </Flex>
     </>
